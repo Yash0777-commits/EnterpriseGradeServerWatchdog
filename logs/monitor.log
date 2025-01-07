@@ -1,0 +1,985 @@
+
+2025-01-07 13:08:52 - Disk Usage: 1%
+2025-01-07 13:08:52 - Interface: eth0, Received Bytes: 7021476, Transmitted Bytes: 277216
+2025-01-07 13:08:52 - Memory Usage: 19%
+2025-01-07 13:08:52 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       10775  100  0.1   8280  4216 pts/0    R+   13:08   0:00 ps aux --sort=-%cpu
+root       10734 11.1  0.0   4752  3304 pts/0    D+   13:08   0:00 bash ./monitor/network.sh
+root       10730  8.3  0.0   4752  3516 pts/0    D+   13:08   0:00 bash ./monitor/memory.sh
+root       10724  5.8  0.0   4752  3444 pts/0    S+   13:08   0:00 bash ./monitor/cpu.sh
+root       10712  0.3  0.0   4884  3588 pts/0    S+   13:08   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:50   0:38 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:50   0:15 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:50   0:14 /init
+root           1  0.0  0.3  22248 13608 ?        Ss   05:50   0:10 /sbin/init
+2025-01-07 13:08:53 - CPU Usage: 22.8%
+2025-01-07 13:08:53 - Monitoring scripts completed.2025-01-07 13:55:46 - CPU Usage: 4.2%
+2025-01-07 13:55:47 - Memory Usage: 11.53946340192758530800%
+2025-01-07 13:55:48 - Disk Usage: 1%
+2025-01-07 13:55:52 - System Load: 0.00,
+2025-01-07 13:55:54 - Top CPU Process:   11009  200 ps
+2025-01-07 13:55:57 - Running script: ./monitor/cpu.sh
+2025-01-07 13:55:57 - Running script: ./monitor/disk.sh
+2025-01-07 13:55:57 - Running script: ./monitor/memory.sh
+2025-01-07 13:55:57 - Running script: ./monitor/network.sh
+2025-01-07 13:55:57 - Running script: ./monitor/processes.sh
+2025-01-07 13:55:57 - Memory Usage: 19%
+2025-01-07 13:55:57 - Disk Usage: 1%
+2025-01-07 13:55:57 - Interface: eth0, Received Bytes: 7182456, Transmitted Bytes: 298654
+2025-01-07 13:55:57 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11071  200  0.1   8280  4180 pts/0    R+   13:55   0:00 ps aux --sort=-%cpu
+root       11048 16.6  0.0   7452  3160 pts/0    S+   13:55   0:00 top -bn1
+root       11051 16.6  0.0   6604  2888 pts/0    S+   13:55   0:00 awk -F , {print $4}
+root       11017  9.0  0.0   4752  3460 pts/0    S+   13:55   0:00 bash ./monitor/cpu.sh
+root       11031  9.0  0.0   4752  3532 pts/0    S+   13:55   0:00 bash ./monitor/processes.sh
+root       10959  1.2  0.0   4884  3556 pts/0    S+   13:55   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:48   0:42 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:48   0:17 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:48   0:15 /init
+2025-01-07 13:55:57 - Error: Unable to retrieve CPU usage. Invalid value:  80.8 id
+2025-01-07 13:56:00 - Monitoring scripts completed.
+2025-01-07 14:29:33 - CPU Usage: 2.0%
+2025-01-07 14:29:34 - Memory Usage: 11.25293045063818702700%
+2025-01-07 14:29:35 - Disk Usage: 1%
+2025-01-07 14:29:37 - System Load: 0.21,
+2025-01-07 14:29:39 - Top CPU Process:     296  0.1 containerd
+2025-01-07 14:29:42 - Running script: ./monitor/cpu.sh
+2025-01-07 14:29:42 - Running script: ./monitor/disk.sh
+2025-01-07 14:29:42 - Running script: ./monitor/memory.sh
+2025-01-07 14:29:42 - Running script: ./monitor/network.sh
+2025-01-07 14:29:42 - Running script: ./monitor/processes.sh
+2025-01-07 14:29:42 - Disk Usage: 1%
+2025-01-07 14:29:42 - Memory Usage: 18%
+2025-01-07 14:29:42 - Interface: eth0, Received Bytes: 7218146, Transmitted Bytes: 308858
+2025-01-07 14:29:42 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11282 18.1  0.0   4880  3472 pts/0    D+   14:29   0:00 bash ./monitor/network.sh
+root       11287 11.1  0.0   7452  3140 pts/0    S+   14:29   0:00 top -bn1
+root       11292 11.1  0.0   4752  3524 pts/0    S+   14:29   0:00 bash ./monitor/processes.sh
+root       11271  5.5  0.0   4752  3496 pts/0    S+   14:29   0:00 bash ./monitor/cpu.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:44 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:17 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+2025-01-07 14:29:42 - Error: Unable to retrieve CPU usage. Invalid value:  77.1 id
+2025-01-07 14:29:44 - Monitoring scripts completed.
+2025-01-07 14:34:43 - Error: Unable to retrieve CPU usage. Invalid value:  96.4 id
+2025-01-07 14:34:47 - Disk Usage: 1%
+2025-01-07 14:34:50 - Memory Usage: 18%
+2025-01-07 14:34:53 - Interface: eth0, Received Bytes: 7220056, Transmitted Bytes: 310388
+2025-01-07 14:34:56 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11519 50.0  0.1   8280  4200 pts/0    R+   14:34   0:00 ps aux --sort=-%cpu
+root       11513  9.0  0.0   4752  3512 pts/0    S+   14:34   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16124 ?        S<s  05:47   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:36:43 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11629 10.0  0.0   4752  3504 pts/0    S+   14:36   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root       11616  0.1  0.3  22240 12848 pts/0    Tl   14:35   0:00 vi
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16132 ?        S<s  05:47   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:38:01 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11738 10.0  0.0   4752  3460 pts/0    S+   14:38   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16140 ?        S<s  05:47   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:38:49 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11847  100  0.1   8280  4108 pts/0    R+   14:38   0:00 ps aux --sort=-%cpu
+root       11841  9.0  0.0   4752  3436 pts/0    S+   14:38   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+2025-01-07 14:38:49 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:43:23 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       11990 10.0  0.0   4752  3460 pts/0    S+   14:43   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+root          64  0.0  0.4  50556 16156 ?        S<s  05:47   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:43:23 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:43:34 - CPU Usage: .8%
+2025-01-07 14:43:35 - Memory Usage: 11.33107580098984110400%
+2025-01-07 14:43:37 - Disk Usage: 1%
+2025-01-07 14:43:38 - System Load: 0.00,
+2025-01-07 14:43:39 - Top CPU Process:   12089  0.3 main.sh
+2025-01-07 14:43:44 - Top CPU Process:   12089  0.2 main.sh
+2025-01-07 14:43:47 - Running script: ./monitor/cpu.sh
+2025-01-07 14:43:47 - Running script: ./monitor/disk.sh
+2025-01-07 14:43:47 - Running script: ./monitor/memory.sh
+2025-01-07 14:43:47 - Running script: ./monitor/network.sh
+2025-01-07 14:43:47 - Running script: ./monitor/processes.sh
+2025-01-07 14:43:47 - Disk Usage: 1%
+2025-01-07 14:43:47 - Memory Usage: 19%
+2025-01-07 14:43:48 - Interface: eth0, Received Bytes: 7223312, Transmitted Bytes: 312884
+2025-01-07 14:43:48 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12208  200  0.1   8280  4204 pts/0    R+   14:43   0:00 ps aux --sort=-%cpu
+root       12154  5.0  0.0   4752  3464 pts/0    S+   14:43   0:00 bash ./monitor/cpu.sh
+root       12089  0.3  0.0   4884  3620 pts/0    S+   14:43   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+2025-01-07 14:43:48 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:43:48 - Error: Unable to retrieve CPU usage. Invalid value:  79.2 id
+2025-01-07 14:43:50 - Monitoring scripts completed.
+2025-01-07 14:44:01 - CPU Usage: .8%
+2025-01-07 14:44:05 - Running script: ./monitor/cpu.sh
+2025-01-07 14:44:05 - Running script: ./monitor/disk.sh
+2025-01-07 14:44:05 - Running script: ./monitor/memory.sh
+2025-01-07 14:44:05 - Running script: ./monitor/network.sh
+2025-01-07 14:44:05 - Running script: ./monitor/processes.sh
+2025-01-07 14:44:05 - Disk Usage: 1%
+2025-01-07 14:44:05 - Memory Usage: 19%
+2025-01-07 14:44:05 - Interface: eth0, Received Bytes: 7223312, Transmitted Bytes: 312884
+2025-01-07 14:44:05 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12340 11.1  0.0   4752  3528 pts/0    S+   14:44   0:00 bash ./monitor/processes.sh
+root       12089  0.2  0.0   5028  3656 pts/0    S+   14:43   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+2025-01-07 14:44:05 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:44:05 - Error: Unable to retrieve CPU usage. Invalid value:  80.2 id
+2025-01-07 14:44:07 - Monitoring scripts completed.
+2025-01-07 14:44:10 - Running script: ./monitor/cpu.sh
+2025-01-07 14:44:10 - Running script: ./monitor/disk.sh
+2025-01-07 14:44:10 - Running script: ./monitor/memory.sh
+2025-01-07 14:44:10 - Running script: ./monitor/network.sh
+2025-01-07 14:44:10 - Running script: ./monitor/processes.sh
+2025-01-07 14:44:10 - Disk Usage: 1%
+2025-01-07 14:44:10 - Memory Usage: 19%
+2025-01-07 14:44:10 - Interface: eth0, Received Bytes: 7223312, Transmitted Bytes: 312884
+2025-01-07 14:44:10 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12524  200  0.1   8280  4200 pts/0    R+   14:44   0:00 ps aux --sort=-%cpu
+root       12490 11.1  0.0   4752  3464 pts/0    S+   14:44   0:00 bash ./monitor/processes.sh
+root       12486  9.0  0.1   9128  4404 pts/0    R+   14:44   0:00 top -bn1
+root       12089  0.3  0.0   5252  3904 pts/0    S+   14:43   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+2025-01-07 14:44:10 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:44:10 - Error: Unable to retrieve CPU usage. Invalid value:  83.3 id
+2025-01-07 14:44:11 - Monitoring scripts completed.
+2025-01-07 14:44:35 - Error: Unable to retrieve CPU usage. Invalid value:  97.7 id
+2025-01-07 14:44:39 - Disk Usage: 1%
+2025-01-07 14:44:42 - Memory Usage: 19%
+2025-01-07 14:44:50 - Interface: eth0, Received Bytes: 7223576, Transmitted Bytes: 313148
+2025-01-07 14:44:55 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12689  100  0.1   8280  4188 pts/0    R+   14:44   0:00 ps aux --sort=-%cpu
+root       12683 11.1  0.0   4752  3520 pts/0    S+   14:44   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:45 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:47   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+2025-01-07 14:44:55 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:18 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12800 11.1  0.0   4752  3516 pts/0    S+   14:47   0:00 /bin/bash ./monitor/processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+2025-01-07 14:47:18 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:31 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       12905  100  0.1   8280  4156 pts/0    R+   14:47   0:00 ps aux --sort=-%cpu
+root       12899 10.0  0.0   4752  3432 pts/0    S+   14:47   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:47:31 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:36 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13003  100  0.1   8280  4208 pts/0    R+   14:47   0:00 ps aux --sort=-%cpu
+root       12997 10.0  0.0   4752  3408 pts/0    S+   14:47   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:47:36 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:37 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13101  100  0.1   8280  4200 pts/0    R+   14:47   0:00 ps aux --sort=-%cpu
+root       13095 10.0  0.0   4752  3456 pts/0    S+   14:47   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:47:37 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:38 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13199  100  0.1   8280  4200 pts/0    R+   14:47   0:00 ps aux --sort=-%cpu
+root       13193 10.0  0.0   4752  3524 pts/0    S+   14:47   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:47:38 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:47:39 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13297  100  0.1   8280  4184 pts/0    R+   14:47   0:00 ps aux --sort=-%cpu
+root       13291 18.1  0.0   4752  3500 pts/0    S+   14:47   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:47   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:47   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:47   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16164 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:47:39 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:48:35 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13392 11.1  0.0   4752  3516 pts/0    S+   14:48   0:00 /bin/bash ./processes.sh cd ..
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:47   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:47   0:08 -bash
+root          64  0.0  0.4  50556 16172 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+2025-01-07 14:48:35 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:13 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13515 11.1  0.0   4752  3504 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:13 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:16 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13612 10.0  0.0   4752  3424 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:16 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:18 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13709 20.0  0.0   4752  3584 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:18 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:18 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13806 10.0  0.0   4752  3420 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:19 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:19 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       13903 11.1  0.0   4752  3524 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:19 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:20 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14000 11.1  0.0   4752  3520 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:20 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:23 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14097 11.1  0.0   4752  3452 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:23 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:24 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14194 10.0  0.0   4752  3456 pts/0    S+   14:51   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+root          64  0.0  0.4  50556 16180 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:51:24 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:37 - Running script: ./monitor/cpu.sh
+2025-01-07 14:51:37 - Running script: ./monitor/disk.sh
+2025-01-07 14:51:37 - Running script: ./monitor/memory.sh
+2025-01-07 14:51:37 - Running script: ./monitor/network.sh
+2025-01-07 14:51:37 - Running script: ./monitor/processes.sh
+2025-01-07 14:51:37 - Disk Usage: 1%
+2025-01-07 14:51:37 - Memory Usage: 19%
+2025-01-07 14:51:37 - Interface: eth0, Received Bytes: 7226052, Transmitted Bytes: 314864
+2025-01-07 14:51:37 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14316 11.1  0.0   7452  3192 pts/0    S+   14:51   0:00 top -bn1
+root       14317 11.1  0.0   4752  3516 pts/0    S+   14:51   0:00 bash ./monitor/processes.sh
+root       14308  9.0  0.0   4880  3536 pts/0    R+   14:51   0:00 bash ./monitor/network.sh
+root       14299  5.8  0.0   4752  3456 pts/0    S+   14:51   0:00 bash ./monitor/cpu.sh
+root       14294  0.2  0.0   4884  3580 pts/0    S+   14:51   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+2025-01-07 14:51:37 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:37 - Error: Unable to retrieve CPU usage. Invalid value:  80.6 id
+2025-01-07 14:51:38 - Monitoring scripts completed.
+2025-01-07 14:51:54 - Running script: ./monitor/cpu.sh
+2025-01-07 14:51:54 - Running script: ./monitor/disk.sh
+2025-01-07 14:51:54 - Running script: ./monitor/memory.sh
+2025-01-07 14:51:54 - Running script: ./monitor/network.sh
+2025-01-07 14:51:54 - Running script: ./monitor/processes.sh
+2025-01-07 14:51:54 - Disk Usage: 1%
+2025-01-07 14:51:54 - Interface: eth0, Received Bytes: 7226052, Transmitted Bytes: 314864
+2025-01-07 14:51:54 - Memory Usage: 19%
+2025-01-07 14:51:54 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14472 11.1  0.0   4752  3516 pts/0    S+   14:51   0:00 bash ./monitor/processes.sh
+root       14452  5.5  0.0   4752  3448 pts/0    S+   14:51   0:00 bash ./monitor/cpu.sh
+root       14294  0.2  0.0   4884  3600 pts/0    S+   14:51   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:08 -bash
+2025-01-07 14:51:54 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:51:55 - Error: Unable to retrieve CPU usage. Invalid value:  79.2 id
+2025-01-07 14:51:55 - Monitoring scripts completed.
+2025-01-07 14:53:49 - Top Processes by CPU Usage:\nroot       14622 10.0  0.0   4752  3508 pts/0    S+   14:53   0:00 /bin/bash ./cpu.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16000 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24912 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+root       11616  0.0  0.3  22240 12848 pts/0    Tl   14:34   0:00 vi
+2025-01-07 14:54:04 - Running script: ./monitor/cpu.sh
+2025-01-07 14:54:04 - Running script: ./monitor/disk.sh
+2025-01-07 14:54:04 - Running script: ./monitor/memory.sh
+2025-01-07 14:54:04 - Running script: ./monitor/network.sh
+2025-01-07 14:54:04 - Running script: ./monitor/processes.sh
+2025-01-07 14:54:04 - Top Processes by CPU Usage:\nroot       14729 16.6  0.0   4752  3500 pts/0    S+   14:54   0:00 bash ./monitor/disk.sh
+root       14727 11.1  0.0   4752  3464 pts/0    S+   14:54   0:00 bash ./monitor/cpu.sh
+root       14722  0.2  0.0   4884  3552 pts/0    D+   14:54   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 14:54:04 - Disk Usage: 1%
+root          64  0.0  0.4  50556 16104 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:54:04 - Memory Usage: 19%
+2025-01-07 14:54:04 - Interface: eth0, Received Bytes: 7226580, Transmitted Bytes: 315392
+2025-01-07 14:54:04 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14727 11.7  0.0   4880  3496 pts/0    S+   14:54   0:00 bash ./monitor/cpu.sh
+root       14737 10.0  0.0      0     0 pts/0    D+   14:54   0:00 [bash]
+root       14722  0.7  0.0   4884  3552 pts/0    S+   14:54   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:15 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 14:54:04 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:54:05 - Monitoring scripts completed.
+2025-01-07 14:58:46 - Running script: ./monitor/cpu.sh
+2025-01-07 14:58:46 - Running script: ./monitor/disk.sh
+2025-01-07 14:58:46 - Running script: ./monitor/memory.sh
+2025-01-07 14:58:46 - Running script: ./monitor/network.sh
+2025-01-07 14:58:46 - Running script: ./monitor/processes.sh
+2025-01-07 14:58:46 - Top Processes by CPU Usage:\nroot       15015  100  0.1   8280  4176 pts/0    R+   14:58   0:00 ps aux --sort=-%cpu
+root       15002 16.6  0.0   4752  3520 pts/0    S+   14:58   0:00 bash ./monitor/disk.sh
+root       14999 10.0  0.0   4752  3520 pts/0    S+   14:58   0:00 bash ./monitor/cpu.sh
+root       14994  0.4  0.0   4884  3536 pts/0    D+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 14:58:46 - Disk Usage: 1%
+2025-01-07 14:58:46 - Memory Usage: 19%
+2025-01-07 14:58:46 - Interface: eth0, Received Bytes: 7228364, Transmitted Bytes: 316796
+2025-01-07 14:58:46 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       14999 10.0  0.0   4880  3544 pts/0    S+   14:58   0:00 bash ./monitor/cpu.sh
+root       15018 10.0  0.0   4752  3500 pts/0    S+   14:58   0:00 bash ./monitor/processes.sh
+root       15009  8.3  0.0      0     0 pts/0    D+   14:58   0:00 [bash]
+root       14994  0.4  0.0   4884  3536 pts/0    S+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+2025-01-07 14:58:46 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:58:48 - Monitoring scripts completed.
+2025-01-07 14:59:00 - Running script: ./monitor/cpu.sh
+2025-01-07 14:59:00 - Running script: ./monitor/disk.sh
+2025-01-07 14:59:00 - Running script: ./monitor/memory.sh
+2025-01-07 14:59:00 - Running script: ./monitor/network.sh
+2025-01-07 14:59:00 - Running script: ./monitor/processes.sh
+2025-01-07 14:59:00 - Top Processes by CPU Usage:\nroot       15244 16.6  0.0   4752  3476 pts/0    S+   14:58   0:00 bash ./monitor/disk.sh
+root       15242 12.5  0.0   4752  3416 pts/0    S+   14:58   0:00 bash ./monitor/cpu.sh
+root       14994  0.2  0.0   4884  3556 pts/0    D+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16120 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:00 - Disk Usage: 1%
+2025-01-07 14:59:00 - Memory Usage: 19%
+2025-01-07 14:59:00 - Interface: eth0, Received Bytes: 7228406, Transmitted Bytes: 316838
+2025-01-07 14:59:00 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       15242 11.7  0.0   4880  3448 pts/0    S+   14:58   0:00 bash ./monitor/cpu.sh
+root       15252  9.0  0.0   4880  3464 pts/0    R+   14:59   0:00 [bash]
+root       14994  0.2  0.0   4884  3556 pts/0    S+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 14:59:00 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:02 - Monitoring scripts completed.
+2025-01-07 14:59:05 - Running script: ./monitor/cpu.sh
+2025-01-07 14:59:05 - Running script: ./monitor/disk.sh
+2025-01-07 14:59:05 - Running script: ./monitor/memory.sh
+2025-01-07 14:59:05 - Running script: ./monitor/network.sh
+2025-01-07 14:59:05 - Running script: ./monitor/processes.sh
+2025-01-07 14:59:05 - Top Processes by CPU Usage:\nroot       15484 16.6  0.0   4752  3468 pts/0    S+   14:59   0:00 bash ./monitor/disk.sh
+root       15482 12.5  0.0   4752  3444 pts/0    S+   14:59   0:00 bash ./monitor/cpu.sh
+root       14994  0.2  0.0   5224  3804 pts/0    S+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16120 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:05 - Disk Usage: 1%
+2025-01-07 14:59:05 - Memory Usage: 19%
+2025-01-07 14:59:05 - Interface: eth0, Received Bytes: 7228406, Transmitted Bytes: 316838
+2025-01-07 14:59:05 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       15500 11.1  0.0   4752  3548 pts/0    S+   14:59   0:00 bash ./monitor/processes.sh
+root       15482  5.8  0.0   4880  3540 pts/0    S+   14:59   0:00 bash ./monitor/cpu.sh
+root       14994  0.2  0.0   5224  3804 pts/0    S+   14:58   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 14:59:06 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:07 - Monitoring scripts completed.
+2025-01-07 14:59:52 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       15733  100  0.1   8280  4208 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       15727 10.0  0.0   4752  3480 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:52 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:55 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       15831  100  0.1   8280  4200 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       15825 11.1  0.0   4752  3580 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:55 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:56 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       15929  100  0.1   8280  4108 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24960 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:59:56 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:57 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16027  100  0.1   8280  4172 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       16021 10.0  0.0   4752  3524 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:57 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:57 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16119 12.5  0.0   4752  3512 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24960 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:59:57 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:58 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16222  100  0.1   8280  4204 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       16216 11.1  0.0   4752  3504 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:58 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:58 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16320  200  0.1   8280  4112 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       16314 11.1  0.0   4752  3500 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:58 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:59 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16418  100  0.1   8280  4172 pts/0    R+   14:59   0:00 ps aux --sort=-%cpu
+root       16412 10.0  0.0   4752  3524 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 14:59:59 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 14:59:59 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16510 11.1  0.0   4752  3488 pts/0    S+   14:59   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24960 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 14:59:59 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:00:00 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:46 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16128 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24960 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+root         109  0.0  0.1  24388  6508 ?        Ss   05:46   0:03 /usr/lib/systemd/systemd-udevd
+2025-01-07 15:00:00 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:03:12 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16736  100  0.1   8280  4200 pts/0    R+   15:03   0:00 ps aux --sort=-%cpu
+root       16730 10.0  0.0   4752  3500 pts/0    S+   15:03   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:18 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16136 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 15:03:12 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:27 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16890 10.0  0.0   4876  3460 pts/0    S+   15:10   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16116 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24896 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 15:10:27 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:30 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       16989  9.0  0.0   4876  3492 pts/0    S+   15:10   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16116 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24896 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 15:10:30 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:31 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       17088 10.0  0.0   4876  3536 pts/0    S+   15:10   0:00 /bin/bash ./processes.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16116 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24896 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+2025-01-07 15:10:31 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:32 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16116 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24896 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+root         109  0.0  0.1  24388  6508 ?        Ss   05:46   0:03 /usr/lib/systemd/systemd-udevd
+2025-01-07 15:10:32 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:33 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16116 ?        S<s  05:46   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24896 ?       Ssl  05:46   0:04 /usr/libexec/wsl-pro-service -vv
+root         109  0.0  0.1  24388  6508 ?        Ss   05:46   0:03 /usr/lib/systemd/systemd-udevd
+2025-01-07 15:10:33 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:47 - Running script: ./monitor/cpu.sh
+2025-01-07 15:10:47 - Running script: ./monitor/disk.sh
+2025-01-07 15:10:47 - Running script: ./monitor/memory.sh
+2025-01-07 15:10:47 - Running script: ./monitor/network.sh
+2025-01-07 15:10:47 - Running script: ./monitor/processes.sh
+2025-01-07 15:10:48 - Top Processes by CPU Usage:\nroot       17417  100  0.1   8280  4252 pts/0    R+   15:10   0:00 ps aux --sort=-%cpu
+root       17396 16.6  0.0   4752  3448 pts/0    D+   15:10   0:00 bash ./monitor/memory.sh
+root       17393 12.5  0.0   4752  3500 pts/0    S+   15:10   0:00 bash ./monitor/disk.sh
+root       17391 10.0  0.0   4752  3456 pts/0    S+   15:10   0:00 bash ./monitor/cpu.sh
+root       17386  0.1  0.0   4884  3572 pts/0    S+   15:10   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+2025-01-07 15:10:48 - Disk Usage: 1%
+2025-01-07 15:10:48 - Memory Usage: 19%
+2025-01-07 15:10:48 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:10:48 - Interface: eth0, Received Bytes: 7232202, Transmitted Bytes: 319874
+2025-01-07 15:10:48 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       17463  100  0.1   8280  4200 pts/0    R+   15:10   0:00 ps aux --sort=-%cpu
+root       17409 10.0  0.0   4752  3520 pts/0    S+   15:10   0:00 bash ./monitor/processes.sh
+root       17402  8.3  0.0   4876  3512 pts/0    D+   15:10   0:00 bash ./monitor/network.sh
+root       17391  5.5  0.0   4880  3480 pts/0    S+   15:10   0:00 bash ./monitor/cpu.sh
+root       17386  0.1  0.0   4884  3572 pts/0    S+   15:10   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+2025-01-07 15:10:48 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:10:48 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:10:49 - Monitoring scripts completed.
+2025-01-07 15:11:02 - Running script: ./monitor/cpu.sh
+2025-01-07 15:11:02 - Running script: ./monitor/disk.sh
+2025-01-07 15:11:03 - Running script: ./monitor/memory.sh
+2025-01-07 15:11:03 - Running script: ./monitor/network.sh
+2025-01-07 15:11:03 - Running script: ./monitor/processes.sh
+2025-01-07 15:11:03 - Top Processes by CPU Usage:\nroot       17670  200  0.1   8280  4200 pts/0    R+   15:11   0:00 ps aux --sort=-%cpu
+root       17651 16.6  0.0   4752  3484 pts/0    D+   15:11   0:00 bash ./monitor/memory.sh
+root       17647 12.5  0.0   4752  3452 pts/0    S+   15:11   0:00 bash ./monitor/disk.sh
+2025-01-07 15:11:03 - Disk Usage: 1%
+root       17645 10.0  0.0   4752  3516 pts/0    S+   15:11   0:00 bash ./monitor/cpu.sh
+root       17386  0.1  0.0   4884  3592 pts/0    S+   15:10   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+2025-01-07 15:11:03 - Memory Usage: 19%
+2025-01-07 15:11:03 - High CPU Usage by Process: ps aux --sort=-%cpu  - 200% CPU (Threshold: 50%)
+2025-01-07 15:11:03 - Interface: eth0, Received Bytes: 7232286, Transmitted Bytes: 319958
+2025-01-07 15:11:03 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       17645 11.1  0.0   4880  3540 pts/0    D+   15:11   0:00 bash ./monitor/cpu.sh
+root       17664 10.0  0.0   4752  3488 pts/0    S+   15:11   0:00 bash ./monitor/processes.sh
+root       17656  8.3  0.0   4876  3492 pts/0    D+   15:11   0:00 bash ./monitor/network.sh
+root       17386  0.1  0.0   4884  3592 pts/0    S+   15:10   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:46   0:47 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:46   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:46   0:11 /sbin/init
+2025-01-07 15:11:03 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:11:04 - Monitoring scripts completed.
+2025-01-07 15:11:08 - CPU Usage: .8%
+2025-01-07 15:13:22 - Running script: ./monitor/cpu.sh
+2025-01-07 15:13:22 - Running script: ./monitor/disk.sh
+2025-01-07 15:13:22 - Running script: ./monitor/memory.sh
+2025-01-07 15:13:22 - Running script: ./monitor/network.sh
+2025-01-07 15:13:22 - Running script: ./monitor/processes.sh
+2025-01-07 15:13:22 - Disk Usage: 1%
+2025-01-07 15:13:22 - Memory Usage: 19%
+2025-01-07 15:13:22 - Interface: eth0, Received Bytes: 7233368, Transmitted Bytes: 320660
+2025-01-07 15:13:22 - Top Processes by CPU Usage:\nroot       17982  100  0.1   8280  4264 pts/0    R+   15:13   0:00 ps aux --sort=-%cpu
+root       17947 12.5  0.0   4752  3512 pts/0    D+   15:13   0:00 bash ./monitor/processes.sh
+root       17940 10.0  0.0   4876  3460 pts/0    D+   15:13   0:00 bash ./monitor/network.sh
+root       17937  8.3  0.0   4876  3524 pts/0    D+   15:13   0:00 bash ./monitor/memory.sh
+root       17933  6.2  0.0   4752  3516 pts/0    S+   15:13   0:00 bash ./monitor/cpu.sh
+root       17928  0.5  0.0   4884  3532 pts/0    S+   15:13   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+2025-01-07 15:13:22 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       17947  9.0  0.0   4752  3524 pts/0    S+   15:13   0:00 bash ./monitor/processes.sh
+root       17933  5.2  0.0   4880  3520 pts/0    D+   15:13   0:00 bash ./monitor/cpu.sh
+root       17928  0.5  0.0   4884  3532 pts/0    S+   15:13   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:46   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+2025-01-07 15:13:22 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:13:22 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:13:23 - Monitoring scripts completed.
+2025-01-07 15:14:28 - Top Processes by CPU Usage:\nroot       18188 10.0  0.0   4876  3536 pts/0    S+   15:14   0:00 /bin/bash ./cpu.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16136 ?        S<s  05:45   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24832 ?       Ssl  05:45   0:04 /usr/libexec/wsl-pro-service -vv
+root         109  0.0  0.1  24388  6508 ?        Ss   05:45   0:03 /usr/lib/systemd/systemd-udevd
+2025-01-07 15:15:04 - Top Processes by CPU Usage:\nroot       18298 11.1  0.0   4876  3500 pts/0    S+   15:15   0:00 /bin/bash ./cpu.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:46   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:46   0:09 -bash
+root          64  0.0  0.4  50556 16136 ?        S<s  05:45   0:06 /usr/lib/systemd/systemd-journald
+root         284  0.0  0.6 2199640 24832 ?       Ssl  05:45   0:04 /usr/libexec/wsl-pro-service -vv
+root         109  0.0  0.1  24388  6508 ?        Ss   05:45   0:03 /usr/lib/systemd/systemd-udevd
+2025-01-07 15:15:28 - Running script: ./monitor/cpu.sh
+2025-01-07 15:15:28 - Running script: ./monitor/disk.sh
+2025-01-07 15:15:28 - Running script: ./monitor/memory.sh
+2025-01-07 15:15:28 - Running script: ./monitor/network.sh
+2025-01-07 15:15:28 - Running script: ./monitor/processes.sh
+2025-01-07 15:15:28 - Disk Usage: 1%
+2025-01-07 15:15:28 - Top Processes by CPU Usage:\nroot       18439  100  0.1   8280  4204 pts/0    R+   15:15   0:00 ps aux --sort=-%cpu
+root       18409 18.1  0.0   4752  3480 pts/0    S+   15:15   0:00 bash ./monitor/cpu.sh
+root       18420 16.6  0.0   4752  3448 pts/0    S+   15:15   0:00 bash ./monitor/network.sh
+root       18414 12.5  0.0   4752  3448 pts/0    S+   15:15   0:00 bash ./monitor/memory.sh
+root       18411 11.1  0.0   4752  3500 pts/0    D+   15:15   0:00 bash ./monitor/disk.sh
+root       18404  0.5  0.0   4884  3536 pts/0    S+   15:15   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+2025-01-07 15:15:28 - Memory Usage: 19%
+2025-01-07 15:15:28 - Interface: eth0, Received Bytes: 7233980, Transmitted Bytes: 321272
+2025-01-07 15:15:28 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:15:28 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       18484  100  0.1   8280  4260 pts/0    R+   15:15   0:00 ps aux --sort=-%cpu
+root       18409 10.5  0.0   4880  3488 pts/0    S+   15:15   0:00 bash ./monitor/cpu.sh
+root       18426  9.0  0.0   4752  3580 pts/0    S+   15:15   0:00 bash ./monitor/processes.sh
+root       18404  0.5  0.0   4884  3536 pts/0    S+   15:15   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+2025-01-07 15:15:28 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:15:28 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:15:31 - Monitoring scripts completed.
+2025-01-07 15:15:39 - CPU Usage: .8%
+2025-01-07 15:15:45 - CPU Usage: 1.6%
+2025-01-07 15:16:31 - Error: Unable to retrieve CPU usage. Invalid value:  99.3 id
+2025-01-07 15:16:41 - Running script: ./monitor/cpu.sh
+2025-01-07 15:16:41 - Running script: ./monitor/disk.sh
+2025-01-07 15:16:41 - Running script: ./monitor/memory.sh
+2025-01-07 15:16:41 - Running script: ./monitor/network.sh
+2025-01-07 15:16:41 - Running script: ./monitor/processes.sh
+2025-01-07 15:16:41 - Disk Usage: 1%
+2025-01-07 15:16:41 - Memory Usage: 19%
+2025-01-07 15:16:41 - Interface: eth0, Received Bytes: 7234286, Transmitted Bytes: 321578
+2025-01-07 15:16:41 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       18727  9.0  0.0   4752  3476 pts/0    S+   15:16   0:00 bash ./monitor/processes.sh
+root       18720  7.6  0.0   4876  3488 pts/0    D+   15:16   0:00 bash ./monitor/network.sh
+root       18709  5.2  0.0   4752  3496 pts/0    S+   15:16   0:00 bash ./monitor/cpu.sh
+root       18704  0.5  0.0   4884  3476 pts/0    S+   15:16   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+2025-01-07 15:16:41 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:16:41 - Error: Unable to retrieve CPU usage. Invalid value:  80.6 id
+2025-01-07 15:16:42 - Monitoring scripts completed.
+2025-01-07 15:17:43 - CPU Usage: 2.4%
+2025-01-07 15:17:44 - Memory Usage: 11.14873665016931492500%
+2025-01-07 15:17:46 - Disk Usage: 1%
+2025-01-07 15:17:47 - System Load: 0.01,
+2025-01-07 15:17:48 - Top CPU Process:   18921  100 ps
+2025-01-07 15:17:52 - Running script: ./monitor/cpu.sh
+2025-01-07 15:17:52 - Running script: ./monitor/disk.sh
+2025-01-07 15:17:52 - Running script: ./monitor/memory.sh
+2025-01-07 15:17:52 - Running script: ./monitor/network.sh
+2025-01-07 15:17:52 - Running script: ./monitor/processes.sh
+2025-01-07 15:17:52 - Disk Usage: 1%
+2025-01-07 15:17:52 - Memory Usage: 19%
+2025-01-07 15:17:52 - Interface: eth0, Received Bytes: 7234930, Transmitted Bytes: 321842
+2025-01-07 15:17:52 - Top Processes by CPU Usage:\nUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       18954 11.1  0.0   7452  3196 pts/0    S+   15:17   0:00 top -bn1
+root       18940  7.6  0.0   4876  3496 pts/0    R+   15:17   0:00 bash ./monitor/network.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:48 /usr/bin/containerd
+root       18704  0.0  0.0   5024  3592 pts/0    S+   15:16   0:00 /bin/bash ./main.sh
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:45   0:09 -bash
+2025-01-07 15:17:52 - Error: Invalid CPU usage value for process 'COMMAND '. Value: '%CPU'
+2025-01-07 15:17:52 - CPU Usage: 21.5%
+2025-01-07 15:17:53 - Monitoring scripts completed.
+2025-01-07 15:27:30 - Running script: ./monitor/cpu.sh
+2025-01-07 15:27:30 - Running script: ./monitor/disk.sh
+2025-01-07 15:27:30 - Running script: ./monitor/memory.sh
+2025-01-07 15:27:30 - Running script: ./monitor/network.sh
+2025-01-07 15:27:30 - Running script: ./monitor/processes.sh
+2025-01-07 15:27:30 - Disk Usage: 1%
+2025-01-07 15:27:30 - Memory Usage: 19%
+2025-01-07 15:27:30 - Interface: eth0, Received Bytes: 7238108, Transmitted Bytes: 324350
+2025-01-07 15:27:30 - Top Processes by CPU Usage:\nroot       19187  200  0.1   8280  4192 pts/0    R+   15:27   0:00 ps aux --sort=-%cpu
+root       19147 21.4  0.1   9128  4964 pts/0    S+   15:27   0:00 top -bn1
+root       19140  6.2  0.0   4752  3460 pts/0    S+   15:27   0:00 bash ./monitor/processes.sh
+root       19123  4.1  0.0   4752  3540 pts/0    S+   15:27   0:00 bash ./monitor/cpu.sh
+root       19118  0.5  0.0   4884  3576 pts/0    S+   15:27   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:49 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+2025-01-07 15:27:30 - High CPU Usage by Process: ps aux --sort=-%cpu  - 200% CPU (Threshold: 50%)
+2025-01-07 15:27:30 - CPU Usage: 16.3%
+2025-01-07 15:27:32 - Monitoring scripts completed.
+2025-01-07 15:27:44 - Running script: ./monitor/cpu.sh
+2025-01-07 15:27:44 - Running script: ./monitor/disk.sh
+2025-01-07 15:27:44 - Running script: ./monitor/memory.sh
+2025-01-07 15:27:44 - Running script: ./monitor/network.sh
+2025-01-07 15:27:44 - Running script: ./monitor/processes.sh
+2025-01-07 15:27:44 - Disk Usage: 1%
+2025-01-07 15:27:44 - Memory Usage: 19%
+2025-01-07 15:27:44 - Interface: eth0, Received Bytes: 7238198, Transmitted Bytes: 324440
+2025-01-07 15:27:44 - Top Processes by CPU Usage:\nroot       19364  100  0.1   8280  4176 pts/0    R+   15:27   0:00 ps aux --sort=-%cpu
+root       19320  7.6  0.1   9128  4924 pts/0    S+   15:27   0:00 top -bn1
+root       19300  4.1  0.0   4752  3532 pts/0    S+   15:27   0:00 bash ./monitor/cpu.sh
+root       19118  0.4  0.0   4884  3596 pts/0    S+   15:27   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:49 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:45   0:09 -bash
+2025-01-07 15:27:44 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:27:44 - CPU Usage: 27.5%
+2025-01-07 15:28:35 - Monitoring scripts completed.
+2025-01-07 15:28:39 - Running script: ./monitor/cpu.sh
+2025-01-07 15:28:39 - Running script: ./monitor/disk.sh
+2025-01-07 15:28:39 - Running script: ./monitor/memory.sh
+2025-01-07 15:28:39 - Running script: ./monitor/network.sh
+2025-01-07 15:28:39 - Running script: ./monitor/processes.sh
+2025-01-07 15:28:39 - Disk Usage: 1%
+2025-01-07 15:28:39 - Memory Usage: 19%
+2025-01-07 15:28:39 - Interface: eth0, Received Bytes: 7238372, Transmitted Bytes: 324614
+2025-01-07 15:28:39 - Top Processes by CPU Usage:\nroot       19537  100  0.1   8280  4148 pts/0    R+   15:28   0:00 ps aux --sort=-%cpu
+root       19499  7.6  0.1   9128  4864 pts/0    S+   15:28   0:00 top -bn1
+root       19118  0.1  0.0   5224  3844 pts/0    S+   15:27   0:00 /bin/bash ./main.sh
+root         296  0.1  1.2 2244124 50512 ?       Ssl  05:45   0:49 /usr/bin/containerd
+root         476  0.0  2.3 2505816 93096 ?       Ssl  05:45   0:19 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         947  0.0  0.0   2616   120 ?        S    05:45   0:16 /init
+root         241  0.0  1.1 2509720 43756 ?       Ssl  05:45   0:11 /usr/lib/snapd/snapd
+root           1  0.0  0.3  22248 13608 ?        Ss   05:45   0:11 /sbin/init
+root         948  0.0  0.1   6436  5668 pts/0    Ss   05:45   0:09 -bash
+root          64  0.0  0.4  50556 16176 ?        S<s  05:45   0:06 /usr/lib/systemd/systemd-journald
+2025-01-07 15:28:39 - High CPU Usage by Process: ps aux --sort=-%cpu  - 100% CPU (Threshold: 50%)
+2025-01-07 15:28:39 - CPU Usage: 19.7%
+2025-01-07 15:28:40 - Monitoring scripts completed.
+2025-01-07 15:41:55 - CPU Usage: 3.9%
+2025-01-07 15:41:57 - Memory Usage: 10.54962229747330033800%
+2025-01-07 15:42:00 - Disk Usage: 1%
+2025-01-07 15:42:02 - System Load: 0.00,
+2025-01-07 15:42:03 - Top CPU Process:   19831  0.3 main.sh
+2025-01-07 15:42:07 - Memory Usage: 10.54962229747330033800%
