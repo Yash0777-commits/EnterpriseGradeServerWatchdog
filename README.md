@@ -1,4 +1,4 @@
-# EnterpriseGradeServerWatchdog
+# Enterprise Grade Server Watchdog
 
 ## Overview
 EnterpriseGradeServerWatchdog is a powerful shell script-based tool designed to monitor critical server metrics such as CPU, memory, disk, network traffic, and top processes. The primary objective of this project is to automate server health monitoring by logging key system metrics and sending alerts whenever a predefined threshold is breached. This tool is perfect for administrators who need to ensure the health of their enterprise servers.
