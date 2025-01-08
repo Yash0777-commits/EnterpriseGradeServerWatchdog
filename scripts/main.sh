@@ -134,11 +134,26 @@ show_disk_usage() {
   log_message "Disk Usage: $disk_usage%"
 }
 
-# Function to show System Load
-show_system_load() {
-  local load_avg=$(uptime | awk -F 'load average:' '{ print $2 }' | awk '{ print $1 }')
-  dialog --msgbox "Current System Load: $load_avg" 10 30
-  log_message "System Load: $load_avg"
+# Function to show Network Stats
+show_network_stats() {
+  local interface="eth0"  # Change this if you're using a different network interface
+
+  # Check if the network interface exists
+  if [ ! -d "/sys/class/net/$interface" ]; then
+    dialog --msgbox "Network interface $interface not found!" 10 30
+    log_message "Network interface $interface not found!"
+    show_main_menu
+    return
+  fi
+
+  # Get received and transmitted bytes for the interface
+  local rx_bytes=$(cat /sys/class/net/$interface/statistics/rx_bytes)
+  local tx_bytes=$(cat /sys/class/net/$interface/statistics/tx_bytes)
+
+  # Display network stats and log them
+  dialog --msgbox "Received Bytes: $rx_bytes\nTransmitted Bytes: $tx_bytes" 10 30
+  log_message "Received Bytes: $rx_bytes, Transmitted Bytes: $tx_bytes"
+  show_main_menu
 }
 
 # Function to show Top CPU-consuming processes
@@ -155,7 +170,7 @@ show_main_menu() {
     1 "View CPU Usage" \
     2 "View Memory Usage" \
     3 "View Disk Usage" \
-    4 "View System Load" \
+    4 "View Network Stats" \
     5 "View Top CPU Process" \
     6 "Run Monitoring Scripts" \
     7 "View Logs" \
@@ -166,7 +181,7 @@ show_main_menu() {
     1) show_cpu_usage ;;
     2) show_memory_usage ;;
     3) show_disk_usage ;;
-    4) show_system_load ;;
+    4) show_network_stats ;;
     5) show_top_cpu_processes ;;
     6) run_monitoring_scripts ;;
     7) view_logs ;;

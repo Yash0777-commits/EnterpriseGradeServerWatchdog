@@ -6,7 +6,7 @@
 : ${CPU_THRESHOLD:=80} # Default to 80% if not set via config/environment
 
 # Disk usage threshold percentage (default: 90%)
-: ${DISK_THRESHOLD:=90} # Default to 90% if not set via config/environment
+: ${DISK_THRESHOLD:=80} # Default to 90% if not set via config/environment
 
 # Memory usage threshold percentage (default: 80%)
 : ${MEMORY_THRESHOLD:=80} # Default to 80% if not set via config/environment
